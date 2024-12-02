@@ -3,7 +3,6 @@ from question import Question
 import requests
 import time
 import html
-import json
 
 
 GRID_PAD = 20
@@ -18,7 +17,7 @@ categories = {
     "Cartoons & Animations": 32,
 }
 
-#TODO: Refactor this shit into functions and improve variable names
+# TODO: Refactor this shit into functions and improve variable names
 questions = {}
 
 for category, value in categories.items():
@@ -36,29 +35,25 @@ for category, value in categories.items():
         )
     time.sleep(5)
 
-print(json.dumps(questions, indent=4))
-
 
 wn = ctk.CTk()
 wn.resizable(False, False)
 wn.geometry("1280x720")
 
 buttons = []
-i = 0
-for (category, question_list) in questions.items():
+for column, (category, question_list) in enumerate(questions.items()):
     question_row = []
-    j = 0
-    for item in question_list:
+
+    for row, item in enumerate(question_list):
         question = item["question"]
         answer = item["answer"]
         question_row.append(
-            Question(wn, answer=answer, question=question, row=i, column=j)
+            Question(wn, answer=answer, question=question, row=row, column=column)
         )
-        j+=1
-    wn.grid_columnconfigure(i, pad=GRID_PAD)
-    wn.grid_rowconfigure(i, pad=GRID_PAD)
+
+    wn.grid_columnconfigure(column, pad=GRID_PAD)
+    wn.grid_rowconfigure(column, pad=GRID_PAD)
     buttons.append(question_row)
-    i += 1
 
 
 wn.mainloop()

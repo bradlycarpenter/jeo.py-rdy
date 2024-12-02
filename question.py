@@ -18,19 +18,18 @@ class Question:
 
     def show_question(self):
         self.button.destroy()
-        self.question = ctk.CTkLabel(
+        self.label = ctk.CTkLabel(
             master=self.root,
             text=self.question,
             wraplength=200,
             font=("Arial", 14),
             corner_radius=10,
-            fg_color="blue",
             width=WIDTH,
             height=HEIGHT,
         )
-        self.question.grid(row=self.row, column=self.column)
-        self.question.bind("<Button-1>", self.show_answer)
+        self.label.grid(row=self.row, column=self.column)
+        self.label.bind("<Button-1>", self.show_answer)
 
     def show_answer(self, event):
         time.sleep(0.016)
-        self.question.configure(text=self.answer)
+        self.label.configure(text=self.answer)
