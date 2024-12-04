@@ -1,0 +1,325 @@
+{
+    "data": [
+        {
+            "response_code": 0,
+            "results": [
+                {
+                    "type": "multiple",
+                    "difficulty": "hard",
+                    "category": "Entertainment: Video Games",
+                    "question": "The map featured in Arma 3 named &quot;Altis&quot; is based off of what Greek island?",
+                    "correct_answer": "Lemnos",
+                    "incorrect_answers": [
+                        "Ithaca",
+                        "Naxos",
+                        "Anafi"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Entertainment: Video Games",
+                    "question": "Which one of these characters was first introduced in Sonic Boom: Rise of Lyric?",
+                    "correct_answer": "Sticks the Badger",
+                    "incorrect_answers": [
+                        "Mighty the Armadillo",
+                        "Espio the Chameleon",
+                        "Rouge the Bat"
+                    ]
+                },
+                {
+                    "type": "boolean",
+                    "difficulty": "hard",
+                    "category": "Entertainment: Video Games",
+                    "question": "In &quot;Call Of Duty: World At War&quot;, the first appearance of the &quot;PPSH-41&quot; in &quot;Zombies&quot; was in the map &quot;Der Riese&quot;.",
+                    "correct_answer": "False",
+                    "incorrect_answers": [
+                        "True"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Entertainment: Video Games",
+                    "question": "Which of these characters was NOT planned to be playable for Super Smash Bros. 64?",
+                    "correct_answer": "Peach",
+                    "incorrect_answers": [
+                        "Bowser",
+                        "Mewtwo",
+                        "King Dedede"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "hard",
+                    "category": "Entertainment: Video Games",
+                    "question": "In the Super Mario Bros. Series, what is Yoshi&#039;s scientific name?",
+                    "correct_answer": "T. Yoshisaur Munchakoopas",
+                    "incorrect_answers": [
+                        "Yoshi",
+                        "T. Yoshisotop Munchakoopas",
+                        "Yossy"
+                    ]
+                }
+            ]
+        },
+        {
+            "response_code": 0,
+            "results": [
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "Science: Computers",
+                    "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+                    "correct_answer": "Hexidecimal",
+                    "incorrect_answers": [
+                        "Binary",
+                        "Duodecimal",
+                        "Octal"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Science: Computers",
+                    "question": "Which programming language was developed by Sun Microsystems in 1995?",
+                    "correct_answer": "Java",
+                    "incorrect_answers": [
+                        "Python",
+                        "Solaris OS",
+                        "C++"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Science: Computers",
+                    "question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+                    "correct_answer": "&lt;marquee&gt;&lt;/marquee&gt;",
+                    "incorrect_answers": [
+                        "&lt;scroll&gt;&lt;/scroll&gt;",
+                        "&lt;move&gt;&lt;/move&gt;",
+                        "&lt;slide&gt;&lt;/slide&gt;"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "hard",
+                    "category": "Science: Computers",
+                    "question": "What was the name of the first Bulgarian personal computer?",
+                    "correct_answer": "IMKO-1",
+                    "incorrect_answers": [
+                        "Pravetz 82",
+                        "Pravetz 8D",
+                        "IZOT 1030"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "Science: Computers",
+                    "question": "If you were to code software in this language you&#039;d only be able to type 0&#039;s and 1&#039;s.",
+                    "correct_answer": "Binary",
+                    "incorrect_answers": [
+                        "JavaScript",
+                        "C++",
+                        "Python"
+                    ]
+                }
+            ]
+        },
+        {
+            "response_code": 0,
+            "results": [
+                {
+                    "type": "boolean",
+                    "difficulty": "medium",
+                    "category": "General Knowledge",
+                    "question": "Popcorn was invented in 1871 by Frederick W. Rueckheim in the USA where he sold the snack on the streets of Chicago.",
+                    "correct_answer": "False",
+                    "incorrect_answers": [
+                        "True"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "General Knowledge",
+                    "question": "What is the name of Poland in Polish?",
+                    "correct_answer": "Polska",
+                    "incorrect_answers": [
+                        "Pupcia",
+                        "Polszka",
+                        "P&oacute;land"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "General Knowledge",
+                    "question": "What is Cynophobia the fear of?",
+                    "correct_answer": "Dogs",
+                    "incorrect_answers": [
+                        "Birds",
+                        "Flying",
+                        "Germs"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "General Knowledge",
+                    "question": "Area 51 is located in which US state?",
+                    "correct_answer": "Nevada",
+                    "incorrect_answers": [
+                        "Arizona",
+                        "New Mexico",
+                        "Utah"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "General Knowledge",
+                    "question": "What is the profession of Elon Musk&#039;s mom, Maye Musk?",
+                    "correct_answer": "Model",
+                    "incorrect_answers": [
+                        "Professor",
+                        "Biologist",
+                        "Musician"
+                    ]
+                }
+            ]
+        },
+        {
+            "response_code": 0,
+            "results": [
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "Entertainment: Japanese Anime &amp; Manga",
+                    "question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
+                    "correct_answer": "10",
+                    "incorrect_answers": [
+                        "11",
+                        "12",
+                        "9"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "hard",
+                    "category": "Entertainment: Japanese Anime &amp; Manga",
+                    "question": "Medaka Kurokami from &quot;Medaka Box&quot; has what abnormality?",
+                    "correct_answer": "The End",
+                    "incorrect_answers": [
+                        "Perfection",
+                        "Sandbox",
+                        "Fairness"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "Entertainment: Japanese Anime &amp; Manga",
+                    "question": "What animation studio produced &quot;Gurren Lagann&quot;?",
+                    "correct_answer": "Gainax",
+                    "incorrect_answers": [
+                        "Kyoto Animation",
+                        "Pierrot",
+                        "A-1 Pictures"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "easy",
+                    "category": "Entertainment: Japanese Anime &amp; Manga",
+                    "question": "Who was a voice actor for the English dubbing of HOWL&#039;S MOVING CASTLE (2004)?",
+                    "correct_answer": "Christian Bale",
+                    "incorrect_answers": [
+                        "Matt Damon",
+                        "Joseph Gordon-Levitt",
+                        "Willem Dafoe"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "hard",
+                    "category": "Entertainment: Japanese Anime &amp; Manga",
+                    "question": "What is the last line muttered in the anime film &quot;The End of Evangelion&quot;?",
+                    "correct_answer": "&quot;How disgusting.&quot;",
+                    "incorrect_answers": [
+                        "&quot;Idiot, I won&#039;t let you kill me!&quot;",
+                        "&quot;Nothing.&quot;",
+                        "&quot;Goddammit, Shinji.&quot;"
+                    ]
+                }
+            ]
+        },
+        {
+            "response_code": 0,
+            "results": [
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Entertainment: Cartoon &amp; Animations",
+                    "question": "In &quot;My Little Pony: Friendship is Magic&quot;, which of these ponies represents the quality of honesty?",
+                    "correct_answer": "Applejack",
+                    "incorrect_answers": [
+                        "Twilight Sparkle",
+                        "Pinkie Pie",
+                        "Rarity"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Entertainment: Cartoon &amp; Animations",
+                    "question": "What is the name of the Alligator that The Simpsons &quot;killed&quot; in the episode &quot;Kill The Alligator and Run&quot;?",
+                    "correct_answer": "Captain Jack",
+                    "incorrect_answers": [
+                        "Captain Jake",
+                        "Captain Hector",
+                        "Captain Flynn"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "hard",
+                    "category": "Entertainment: Cartoon &amp; Animations",
+                    "question": "In the TV show &quot;Rick and Morty&quot;, Rick uses the catchphrase &quot;Wubba Lubba Dub Dub&quot;, which means what in Birdperson?",
+                    "correct_answer": "I am in great pain, please help me.",
+                    "incorrect_answers": [
+                        "I pray that my life ends soon.",
+                        "Lets get this party started!",
+                        "I am suffering, please help me."
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Entertainment: Cartoon &amp; Animations",
+                    "question": "Which singer provided the voice of Metroid&#039;s Mother Brain in the animated series &quot;Captain N: The Game Master&quot;?",
+                    "correct_answer": "Levi Stubbs",
+                    "incorrect_answers": [
+                        "Freddie Mercury",
+                        "Janet Jackson",
+                        "Joan Jett"
+                    ]
+                },
+                {
+                    "type": "multiple",
+                    "difficulty": "medium",
+                    "category": "Entertainment: Cartoon &amp; Animations",
+                    "question": "Who is the &quot;dumb blonde&quot; character in Nickelodeon&#039;s &quot;The Loud House&quot;?",
+                    "correct_answer": "Leni",
+                    "incorrect_answers": [
+                        "Luan",
+                        "Luna",
+                        "Lincoln"
+                    ]
+                }
+            ]
+        }
+    ]
+}
