@@ -1,0 +1,44 @@
+html {
+	background: black;
+}
+
+body {
+	color: white;
+}
+
+.btn-group button {
+	font-family: Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	background-color: #021E9D;
+	/* Green background */
+	border: 1px solid black;
+	/* Green border */
+	color: #F6B945;
+	/* White text */
+	padding: 10px 24px;
+	/* Some padding */
+	cursor: pointer;
+	/* Pointer/hand icon */
+	float: left;
+	/* Float the buttons side by side */
+	width: 200px;
+	height: 80px;
+}
+
+.btn-group button:not(:last-child) {
+	border-right: none;
+	/* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+	filter: brightness(150%);
+}
