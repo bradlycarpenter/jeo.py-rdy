@@ -1,5 +1,5 @@
 html {
-	background: black;
+	background: #021E9D;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 	font-size: 1em;
 	background-color: #021E9D;
 	/* Green background */
-	border: 1px solid black;
+	border: 2px solid black;
 	/* Green border */
 	color: #F6B945;
 	/* White text */
@@ -22,7 +22,7 @@ body {
 	/* Pointer/hand icon */
 	float: left;
 	/* Float the buttons side by side */
-	width: 200px;
+	width: 20%;
 	height: 80px;
 }
 
@@ -37,6 +37,7 @@ body {
 	clear: both;
 	display: table;
 }
+
 
 /* Add a background color on hover */
 .btn-group button:hover {
